@@ -1,3 +1,4 @@
+package Easy;
 public class MaxProductOfTwoElement {
     public static int maxProduct(int[] nums) {
         // Take example of race

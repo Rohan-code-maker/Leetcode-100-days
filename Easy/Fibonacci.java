@@ -1,3 +1,4 @@
+package Easy;
 public class Fibonacci {
 
     public static int fib(int n) {

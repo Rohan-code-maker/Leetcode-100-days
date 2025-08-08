@@ -1,3 +1,4 @@
+package Easy;
 public class Tribonacci {
     public static int tribonacci(int n) {
         if (n == 0) {
