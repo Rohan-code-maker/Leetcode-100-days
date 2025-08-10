@@ -8,8 +8,8 @@ public class SquaresOfSortedArr {
         int start = 0;
         int end = nums.length - 1;
         while (start <= end) {
-            int ss = nums[start] * nums[start];
-            int es = nums[end] * nums[end];
+            int ss = nums[start] * nums[start]; //start square
+            int es = nums[end] * nums[end]; //end square
             if (ss >= es) {
                 ans[ptr] = ss;
                 start++;
